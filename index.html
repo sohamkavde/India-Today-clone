@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="topNavigation">
+
+                <p>India</p>
+                <p>Business</p>
+                <p>Hindi</p>
+                <p>TIME</p>
+
+                <p>India</p>
+                <p>Business</p>
+                <p>Hindi</p>
+                <p>TIME</p>
+
+                <p>India</p>
+                <p>Business</p>
+                <p>Hindi</p>
+                <p>TIME</p>
+
+                <p>India</p>
+                <p>Business</p>
+                <p>Hindi</p>
+                <p>TIME</p>
+
+                <p>India</p>
+                <p>Business</p>
+                <p>Hindi</p>
+                <p>TIME</p>
+
+        </div>
+        <div class="topSecondNavigation">
+            <div class="topLogo">
+                <h1>INDIA TODAY</h1>
+                <div class="topPremium">
+                    Premium
+                </div>
+            </div>
+            <div class="topOthers">
+
+                <p> <i class="fa fa-book" aria-hidden="true"></i> magazine</p>
+            </div>
+            <div class="topOthers">
+                <p><i class="fa-solid fa-tv"></i>TV</p>
+            </div>
+            <div class="topOthers">
+                <p><i class="fa-solid fa-magnifying-glass"></i>Search</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="middleSection">
+        <div class="sideNavigation">
+            <div class="sideNavigationOne">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <button>sign in</button>
+            </div>
+            <div class="sideNavigationtwo">
+                <p>Dark mode</p>
+                <i class="fa-solid fa-toggle-on" style="background-color:#2C2C2C;"></i>
+            </div>
+            <div class="sideNavigationthree">
+                <div class="sidePremium">
+                    Premium
+                </div>
+                <div class="sidenav">
+                    <a href="#">Home</a>
+                    <a href="#">Personalise</a>
+                    <a href="#">Live TV</a>
+                    <a href="#">India</a>
+                    <a href="#">World</a>
+                    <a href="#">Business</a>
+                    <a href="#">Technollogy</a>
+                    <a href="#">Personalise</a>
+                    <a href="#">Live TV</a>
+                    <a href="#">India</a>
+                    <a href="#">World</a>
+                    <a href="#">Business</a>
+                    <a href="#">Technollogy</a>
+                    <a href="#">Personalise</a>
+                    <a href="#">Live TV</a>
+                    <a href="#">India</a>
+                    <a href="#">World</a>
+                    <a href="#">Business</a>
+                    <a href="#">Technollogy</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="aside">
+            <div class="asideTop">
+                <div class="asideFirst">
+                    <div>
+                        <button>Auto Expo 2023</button>
+                        <button>Some Info</button>
+                        <button>Basic Info</button>
+                        <button>Work for you</button>
+                    </div>
+                </div>
+                <div class="asideSecond">
+                    <small>ADVERTISEMENT</small>
+                    <img src="./ads.png" alt="ads">
+                </div>
+            </div>
+            <div id="asideLast">
+
+            </div>
+
+
+            <!-- <div class="asideRight"></div> -->
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script>
+    var divid = document.getElementById("asideLast");
+    divid.innerHTML += "";
+    for (var i = 0; i < 10; i++) {
+        divid.innerHTML += `
+        <div class="asideLast" >
+        <div class="asideLeft">
+                    <p>INDIA</p>
+                    <h2>Air India crew wrote to seniors about urination incident. Here's what they said</h2>
+                    <p>Hours after the Air India flight from New York had landed in Delhi, the crew wrote to seniors
+                        about a man allegedly urinating on a woman co-passenger while in the air. Here is what the</p>
+                    <div class="asideimg">
+                        <img src="./post.avif" alt="post">
+                    </div>
+                    <div class="asideEmogy">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <i class="fa-regular fa-message"></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                </div>
+            </div>        
+        `;
+    }
+</script>
